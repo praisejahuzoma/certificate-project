@@ -1,0 +1,13 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ .container{
+     height: 100vh;
+     width: 100%;
+     background-image: url(/img/qingbao-meng-01_igFr7hd4-unsplash.jpg);
+     background-size: cover;
+     background-position:center;
+     position: relative;
+ }
