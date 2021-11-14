@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Monoton&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cabin+Sketch&family=Dancing+Script&family=Monoton&family=Shalimar&family=Source+Sans+Pro&display=swap');
 
 *{
      margin: 0;
      padding: 0;
  }
 
- .contanier{
+ .container{
      height: 100vh;
      width: 100%;
      background-image: url(/image/certificate-border.jpg);
@@ -13,32 +13,82 @@
      background-position:center;
      position: relative;
      background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
  }
  .content{
      width: 60%;
-     margin: 0 auto;
-     opacity: 50%;
-     background-color: teal;
      height: 100%;
      display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
  }
+ span{
+     font-size: 1.563rem;
+ }
 
  h1{
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 40px;
+    font-family: 'Alice', serif;
+    font-size: 2.313rem;
     font-weight: 400;
-    margin-top: -240px;
+    margin-top: 2.5rem;
 }
 
 h5{
     
     font-family: 'Source Sans Pro', sans-serif;  
-    font-size: 15px;
-    margin-top: -140px;
+    font-size: 0.688rem;
+    margin-top: 3.125rem;
 }
 h3{
+    font-family: 'Shalimar', cursive; 
+    font-size: 3.75rem;
+    margin-top: 3.57rem;
 
+}
+.hr{
+    background-color:black;
+    width: 26.25rem;
+    margin-top: -0.625rem;
+    height: 0.075rem;
+}
+h2{
+     font-family: 'Source Sans Pro', sans-serif;  
+    font-size: 0.688rem;
+    margin-top: 1.875rem;
+    display: flex;
+    justify-content: center;
+
+}
+.section{
+    margin-top: 0rem;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.sign{
+    font-family: 'Shalimar', cursive; 
+}
+.section-hr{
+   width: 3.75rem;
+}
+h6{
+    font-size: 0.988rem;
+       font-family: 'Source Sans Pro', sans-serif;  
+}
+.section-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.badge{
+ width:20mm;
+ height:20mm;
+margin-top: 2.5rem;
+ right:10mm;
+ bottom:10mm;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z' /%3E%3C/svg%3E");
 }
