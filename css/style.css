@@ -5,6 +5,7 @@
      padding: 0;
  }
 
+ /* container */
  .container{
      height: 100vh;
      width: 100%;
@@ -24,6 +25,7 @@
     align-items: center;
     flex-direction: column;
  }
+ /* headings */
  span{
      font-size: 1.563rem;
  }
@@ -47,6 +49,10 @@ h3{
     margin-top: 3.57rem;
 
 }
+h6{
+    font-size: 0.988rem;
+       font-family: 'Source Sans Pro', sans-serif;  
+}
 .hr{
     background-color:black;
     width: 26.25rem;
@@ -61,6 +67,7 @@ h2{
     justify-content: center;
 
 }
+
 .section{
     margin-top: 0rem;
     display: flex;
@@ -73,10 +80,6 @@ h2{
 }
 .section-hr{
    width: 3.75rem;
-}
-h6{
-    font-size: 0.988rem;
-       font-family: 'Source Sans Pro', sans-serif;  
 }
 .section-container{
     width: 100%;
