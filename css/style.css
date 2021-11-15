@@ -8,22 +8,24 @@
  /* container */
  .container{
      height: 100vh;
-     width: 100%;
+     width: 70%;
      background-image: url(/image/certificate-border.jpg);
      background-size: contain;
      background-position:center;
-     position: relative;
      background-repeat: no-repeat;
      display: flex;
      justify-content: center;
+     margin: 0 auto;
  }
  .content{
-     width: 60%;
-     height: 100%;
+     width: 73%;
+     height: 75vh;
      display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 3px solid #c4beb5;
+    margin-top: 5.6rem;
  }
  /* headings */
  span{
@@ -68,30 +70,24 @@ h2{
 
 }
 
-.section{
-    margin-top: 0rem;
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-}
-
 .sign{
     font-family: 'Shalimar', cursive; 
 }
 .section-hr{
-   width: 3.75rem;
+   width: 7rem;
 }
 .section-container{
-    width: 100%;
+    margin-top: 2.5rem;
     display: flex;
-    justify-content: center;
+    width: 50%;
+    justify-content: space-between;
+}
+.section-container i{
+    font-size: 5rem;
 }
 
-.badge{
- width:20mm;
- height:20mm;
-margin-top: 2.5rem;
- right:10mm;
- bottom:10mm;
- background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z' /%3E%3C/svg%3E");
+.sign, .date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
