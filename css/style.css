@@ -18,15 +18,16 @@
      margin: 0 auto;
  }
  .content{
-     width: 73%;
-     height: 75vh;
+     width: 83%;
+     height: 60vh;
      display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border: 3px solid #c4beb5;
-    margin-top: 5.6rem;
+    margin-top: 7rem;
  }
+
  /* headings */
  span{
      font-size: 1.563rem;
